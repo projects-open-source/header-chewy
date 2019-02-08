@@ -19,16 +19,10 @@
     display: block;
 }
 
-
-
 .img-responsive{
     width: 155px;
     height: 46px;
 }
-.form-group{
-    
-}
-
 
 .form-control{
     border: none;
@@ -278,6 +272,10 @@
     color: #f8d71c;
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.food, .treats, .supplies{
+    list-style-type: none;
 }
 
 .fa-truck{
