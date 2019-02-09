@@ -1,0 +1,374 @@
+.container-fluid{
+    background-color: #128ced;
+}
+.fa-search{
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    color: #128ced;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropright:hover>.dropdown-menu{
+    display: block;
+}
+
+.chewi{
+    width: 155px;
+    height: 46px;
+}
+
+.form-control{
+    border: none;
+    
+    position: relative;
+}
+#menu1{
+    width: 370px;
+    padding-top: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#menu2{
+    width: 235px;
+    text-align: center;
+    padding-top: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.header-left-bottom{
+    padding-bottom: 0;
+}
+
+.custom{
+    font-size: 1rem;
+    border-bottom: 1px solid #dadada;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#link{
+    padding-top: 0;
+    color: #128ced;
+}
+
+.get-help, .number-phone{
+    
+    text-align: center;
+}
+.get-help{
+    font-size: 1.1rem;
+    margin: 0;
+}
+.number-phone{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #ef6c00;
+}
+
+.chat-contact{
+    list-style-type: none;
+    padding: 0;
+     
+}
+.chat, .contact{
+    font-size: 1.1rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;  
+}
+.contact{
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+.chat{
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+}
+.track-faq-shipping{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+#dropdownMenuLink1, #dropdownMenuLink2, #dropdownMenuLink3{
+    background-color:  #128ced;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#dropdownMenuLink1:hover{
+    border: none;
+    background-color: #0d7ed4;
+} 
+
+#dropdownMenuLink2:hover{
+    border: none;
+    background-color: #0d7ed4;
+} 
+
+#dropdownMenuLink3:hover{
+    border: none;
+    background-color: #0d7ed4;
+}
+#button-sign-in{
+    
+    width: 80%;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    background-color: #ef6c00;
+    font-weight: 600;
+    margin-top: 10px;
+}
+#btnlink:hover{
+    text-decoration: none;
+}
+
+#btnlink{
+    color: #fff;
+}
+
+.arrow-nav{
+    list-style-type: none;
+    
+}
+
+.fa-shopping-cart{
+    position: relative;
+    right: 5px;
+    font-size: 21px;
+    color: #fff;
+}
+
+.number{
+    position: absolute;
+    right: 1px;
+    bottom: 11px;
+    background-color: yellow;
+    border-radius: 100%;
+    width: 15px;
+    height: 20px;
+    color: black;
+}
+
+
+.fa-angle-down{
+    color: #f8d71c; 
+    font-size: 21px;
+}
+#angle1::after{
+    content: " ";
+    width: 1px;
+    height: 45px;
+    background-color: #41a3f1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#angle2::after{
+    content: " ";
+    width: 1px;
+    height: 45px;
+    background-color: #41a3f1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu-account{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 3;
+}
+.pull-right{
+    
+}
+#menu3{
+    width: 350px;
+    
+    padding: 30px;
+    padding-top: 30px;
+    padding-top: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.empty{
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1em;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#dropdownMenuButtonShop{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 10px;
+    background-color: #128ced;
+    border: none;
+}
+
+#dropdownMenuButtonShop:hover{
+     background-color: #0d7ed4;
+}
+#dropdownMenuButtonShop1{
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    position: relative;
+}
+
+.fa-angle-right{
+    position: absolute;
+    bottom: 14px;
+    right: 5px
+}
+
+#angle-shop{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.btn-header-bottom{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #128ced;
+    border: none;
+}
+#nav-menu-shop{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.menu-min1{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.link-shop:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-header-bottom:hover{
+    background-color: #0d7ed4;
+}
+
+.menu-bottom{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.dog-link:hover{
+    border-bottom: 1px solid #0e70be;
+    color: #0e70be;
+}
+
+.dog-link{
+    border-bottom: 1px solid #ddd;
+    color: #0e70be;
+}
+
+.link-shop-dog:hover{
+    color: #0e70be;
+    text-decoration: underline;
+}
+
+.link-shop-dog{
+    color: #0e70be;
+}
+
+.menu-bottom:hover{
+    color: #0e70be;
+}
+
+.link-shop{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.link-shop2{
+    color: #f8d71c;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.food, .treats, .supplies{
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 80px;
+    font-size: 1.1rem;
+}
+
+.suppplies{
+    padding: 0px;
+}
+
+.first-list{
+    margin-right: 20px;
+}
+
+.first-list1{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.class-dog{
+    padding-left: 0px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.class-dog:hover{
+    color: #0e70be;
+}
+
+.sign{
+    color: #0e70be;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.fa-truck{
+    color: #fff;
+    font-size: 25px;
+}
+.dropdown-item{
+    background-color: transparent;
+    
+}
+.dropdown-item:hover{
+    background-color: transparent;
+}
+
+.liink:hover{
+    color: #128ced;
+}
+
+.logo-pub{
+    margin-left: 20px;
+}
+
+.cw-card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.logo-list{
+    list-style-type: none;
+    padding-left: 0px; 
+}
