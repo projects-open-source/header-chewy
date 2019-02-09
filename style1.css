@@ -8,7 +8,6 @@
     color: #128ced;
     font-size: 20px;
     border-radius: 5px;
-
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -19,16 +18,10 @@
     display: block;
 }
 
-
-
-.img-responsive{
+.chewi{
     width: 155px;
     height: 46px;
 }
-.form-group{
-    
-}
-
 
 .form-control{
     border: none;
@@ -48,6 +41,11 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+.header-left-bottom{
+    padding-bottom: 0;
+}
+
 .custom{
     font-size: 1rem;
     border-bottom: 1px solid #dadada;
@@ -227,7 +225,7 @@
      background-color: #0d7ed4;
 }
 #dropdownMenuButtonShop1{
-    background-color: transparent;
+    background-color: #fff;
     border: none;
     width: 100%;
     position: relative;
@@ -250,6 +248,14 @@
     background-color: #128ced;
     border: none;
 }
+#nav-menu-shop{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.menu-min1{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
 
 .link-shop:hover{
     color: #fff;
@@ -261,11 +267,31 @@
 }
 
 .menu-bottom{
-    font-size: 1.6rem
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.dog-link:hover{
+    border-bottom: 1px solid #0e70be;
+    color: #0e70be;
+}
+
+.dog-link{
+    border-bottom: 1px solid #ddd;
+    color: #0e70be;
+}
+
+.link-shop-dog:hover{
+    color: #0e70be;
+    text-decoration: underline;
+}
+
+.link-shop-dog{
+    color: #0e70be;
 }
 
 .menu-bottom:hover{
-    color: #128ced;
+    color: #0e70be;
 }
 
 .link-shop{
@@ -280,6 +306,41 @@
     font-size: 1.1rem;
 }
 
+.food, .treats, .supplies{
+    list-style-type: none;
+    padding-left: 0;
+    padding-bottom: 80px;
+    font-size: 1.1rem;
+}
+
+.suppplies{
+    padding: 0px;
+}
+
+.first-list{
+    margin-right: 20px;
+}
+
+.first-list1{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.class-dog{
+    padding-left: 0px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.class-dog:hover{
+    color: #0e70be;
+}
+
+.sign{
+    color: #0e70be;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
 .fa-truck{
     color: #fff;
     font-size: 25px;
@@ -288,10 +349,26 @@
     background-color: transparent;
     
 }
+.dropdown-item:hover{
+    background-color: transparent;
+}
 
 .liink:hover{
     color: #128ced;
 }
-.menu-min1{
-    width: 
+
+.logo-pub{
+    margin-left: 20px;
+}
+
+.cw-card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.logo-list{
+    list-style-type: none;
+    padding-left: 0px; 
 }

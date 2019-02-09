@@ -18,7 +18,7 @@
                 <div class="header-top d-flex col-md-12">
                     <div class="header-left d-flex col-md-7 justify-content-end">
                         <div class="logo">
-                            <img src="chewy-logo2.png" alt="logo Chewi" class="img-responsive">
+                            <img src="fonts/chewy-logo2.png" alt="logo Chewi" class="img-responsive chewi">
                         </div>
                         <div class="form-search col-md-8">
                             <input type="text" class="form-control form-control-lg" id="input" placeholder="Find the best for your pet...">
@@ -87,110 +87,294 @@
                           <button class="btn btn-primary" type="button" id="dropdownMenuButtonShop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             shop by pet <span class="fa fa-angle-down" id="angle-shop"></span> 
                           </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="nav-menu-shop">
                               <div class="dropright">
                                 <button class="btn btn-primary text-left" type="button" id="dropdownMenuButtonShop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="dropdown-item menu-bottom" href="#">dog<i class="fa fa-angle-right far"></i></a>
                                 </button>
                                   <div class="dropdown-menu menu-min1" aria-labelledby="dropdownMenuButton2">
-                                    <div class="d-flex">
-                                    <ul class="food">  
-                                        <li><a class="dropdown-item" href="#"><h4>food</h4></a></li>
-                                        <li><a class="dropdown-item" href="#">Dry Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Wet Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Prescription Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Freeze-Dried Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Human-Grade</a></li>
-                                        <li><a class="dropdown-item" href="#">Shop All<i class="fa fa-angle-right" id="angle-right"></i></a></li>
-                                    </ul>
-                                    <ul class="treats">  
-                                        <li><a class="dropdown-item" href="#"><h4>treats</h4></a></li>
-                                        <li><a class="dropdown-item" href="#">Dentals & Hard Chews</a></li>
-                                        <li><a class="dropdown-item" href="#">Soft & Chewy Treats</a></li>
-                                        <li><a class="dropdown-item" href="#">Biscuits & Crunchy Treats</a></li>
-                                        <li><a class="dropdown-item" href="#">Bully Sticks & Natural Chews</a></li>
-                                        <li><a class="dropdown-item" href="#">Jerky Treats</a></li>
-                                        <li><a class="dropdown-item" href="#">Shop All<i class="fa fa-angle-right" id="angle-right"></i></a></li>
-                                    </ul>
-                                    <ul class="supplies">  
-                                        <li><a class="dropdown-item" href="#"><h4>supplies</h4></a></li>
-                                        <li><a class="dropdown-item" href="#">Toys</a></li>
-                                        <li><a class="dropdown-item" href="#">Healthcare</a></li>
-                                        <li><a class="dropdown-item" href="#">Dental Care</a></li>
-                                        <li><a class="dropdown-item" href="#">Vitamins & Supplements</a></li>
-                                        <li><a class="dropdown-item" href="#">Cleaning & Potty</a></li>
-                                        <li><a class="dropdown-item" href="#">Crates, Pens & Gates</a></li>
-                                    </ul>
-                                    <ul class="supplies">
-                                        <li><a class="dropdown-item" href="#">Bed & Mats</a></li>
-                                        <li><a class="dropdown-item" href="#">Carriers & Travel</a></li>
-                                        <li><a class="dropdown-item" href="#">Bowls & Feeders</a></li>
-                                        <li><a class="dropdown-item" href="#">Gooming</a></li>
-                                        <li><a class="dropdown-item" href="#">Flea & Tick</a></li>
-                                        <li><a class="dropdown-item" href="#">Shop All<i class="fa fa-angle-right" id="angle-right"></i></a></li>
-                                    </ul>
+                                      <div class="d-flex menu-list-full">
+                                      <div class="menu-list-top-bottom">
+                                          <div class="d-flex">
+                                            <div class="first-list1">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/food-332"><h4>food</h4></a>
+                                                <ul class="food">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/dry-food-294">Dry Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/wet-food-293">Wet Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/prescription-food-459">Prescription Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/freeze-dried-food-336">Freeze-Dried Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/human-grade-1902">Human-Grade</a></li>
+                                                    <li><a class="dropdown-item link-shop-dog class-dog" href="https://www.chewy.com/b/food-332">Shop All <span class="sign">></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="first-list">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/treats-335"><h4>treats</h4></a>
+                                                <ul class="treats">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/dental-hard-chews-1539">Dentals & Hard Chews</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/soft-chewy-treats-1538">Soft & Chewy Treats</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/biscuits-crunchy-treats-1537">Biscuits & Crunchy Treats</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/bully-sticks-natural-chews-1540">Bully Sticks & Natural Chews</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/jerky-treats-1546">Jerky Treats</a></li>
+                                                    <li><a class="dropdown-item link-shop-dog class-dog" href="https://www.chewy.com/b/treats-335">Shop All <span class="sign">></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="first-list">
+                                                    <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/dog-288"><h4>supplies</h4></a>
+                                                <ul class="d-flex suppplies">
+                                                <ul class="supplies">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/toys-315">Toys</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/healthcare-372">Healthcare</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/dental-care-441">Dental Care</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/vitamins-supplements-374">Vitamins & Supplements</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/cleaning-potty-351">Cleaning & Potty</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/crates-pens-gates-364">Crates, Pens & Gates</a></li>
+                                                </ul>
+                                                <ul class="supplies">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/beds-mats-365">Bed & Mats</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/carriers-travel-371">Carriers & Travel</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/bowls-feeders-338">Bowls & Feeders</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/grooming-355">Gooming</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/flea-tick-381">Flea & Tick</a></li>
+                                                    <li><a class="dropdown-item link-shop-dog class-dog" href="https://www.chewy.com/b/dog-288">Shop All <span class="sign">></span></a></li>
+                                                </ul>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                        <div class="logo-pub">
+                                            <h4>popular brands <a href="https://www.chewy.com/app/catalog/brands?cgId=288"><span class="sign">Shop All ></span></a></h4>
+                                            <ul class="d-flex logo-list">
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ABlue+Buffalo%2Cc%3A288"><img src="fonts/dog.png" alt="Dog" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AStella+%26+Chewy%27s%2Cc%3A288"><img src="fonts/cat.png" alt="Cat" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AMerrick%2Cc%3A288"><img src="fonts/horse.png" alt="Horse" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AWellness%2Cc%3A288"><img src="fonts/pork.png" alt="Pork" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ATaste+of+the+Wild%2Cc%3A288"><img src="fonts/cow.png" alt="Cow" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ANatural+Balance%2Cc%3A288"><img src="fonts/goat.png" alt="Goat" style="width: 70px" class="img-responsive"></a></li>
+                                            </ul>  
+                                        </div>
+                                     </div>
+                                      <div class="img-dog">
+                                          <a href="https://www.chewy.com/b/valentines-day-shop-2701">
+                                        <img src="fonts/dog-3.jpg" alt="Image dog" style=" width: 355px; height: 525px" class="img-responsive dog-full">
+                                          </a>
+                                      </div>
                                     </div>
                                   </div>
                               </div>
                               <div class="dropright">
                                 <button class="btn btn-primary text-left" type="button" id="dropdownMenuButtonShop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="dropdown-item menu-bottom" href="#">cat<i class="fa fa-angle-right far"></i></a>
                                 </button>
-                                  <div class="dropdown-menu menu-min2" aria-labelledby="dropdownMenuButton2">
-                                    <div class="d-flex">
-                                    <ul class="food">  
-                                        <li><a class="dropdown-item" href="#"><h4>food</h4></a></li>
-                                        <li><a class="dropdown-item" href="#">Dry Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Wet Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Prescription Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Freeze-Dried Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Human-Grade</a></li>
-                                        <li><a class="dropdown-item" href="#">Shop All<i class="fa fa-angle-right" id="angle-right"></i></a></li>
-                                    </ul>
-                                    <ul class="food">  
-                                        <li><a class="dropdown-item" href="#"><h4>food</h4></a></li>
-                                        <li><a class="dropdown-item" href="#">Dry Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Wet Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Prescription Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Freeze-Dried Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Human-Grade</a></li>
-                                        <li><a class="dropdown-item" href="#">Shop All<i class="fa fa-angle-right" id="angle-right"></i></a></li>
-                                    </ul>
-                                    <ul class="food">  
-                                        <li><a class="dropdown-item" href="#"><h4>food</h4></a></li>
-                                        <li><a class="dropdown-item" href="#">Dry Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Wet Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Prescription Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Freeze-Dried Food</a></li>
-                                        <li><a class="dropdown-item" href="#">Human-Grade</a></li>
-                                        <li><a class="dropdown-item" href="#">Shop All<i class="fa fa-angle-right" id="angle-right"></i></a></li>
-                                    </ul>
+                                  <div class="dropdown-menu menu-min1" aria-labelledby="dropdownMenuButton2">
+                                      <div class="d-flex menu-list-full">
+                                      <div class="menu-list-top-bottom">
+                                          <div class="d-flex">
+                                            <div class="first-list1">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/food-387"><h4>food</h4></a>
+                                                <ul class="food">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/wet-food-389">Wet Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/dry-food-388">Dry Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/prescription-food-460">Prescription Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/food-toppings-392">Food Toppings</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/freeze-dried-food-431">Freeze-Dried Food</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/dehydrated-food-1560">Dehydrated Food</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="first-list">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/litter-accessories-410"><h4>litter & accessories</h4></a>
+                                                <ul class="treats">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/litter-411">Litter</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/litter-boxes-413">Litter Boxes</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/litter-box-accessories-412">Litter Boxes Accessories</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/waste-disposal-414">Waste Disposal</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/cleaners-deodorizers-1442">Cleaners & Deodorizers</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/litter-box-enclosures-2328">Litter Box Enclosures</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="first-list">
+                                                    <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/cat-325"><h4>supplies</h4></a>
+                                                <ul class="d-flex suppplies">
+                                                <ul class="supplies">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/treats-391">Treats</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/toys-326">Toys</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/healthcare-415">Healthcare</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/dental-care-440">Dental Care</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/vitamins-supplements-417">Vitamins & Supplements</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/flea-tick-404">Flea & Tick</a></li>
+                                                </ul>
+                                                <ul class="supplies">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/training-cleaning-428">Training & Cleaning</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/crates-pens-gates-424">Crates, Pens & Gates</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/beds-mats-425">Beds & Mats</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/trees-condos-scratchers-456">Trees, Condos & Scratchers</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/carriers-travel-454">Carriers & Travel</a></li>
+                                                    <li><a class="dropdown-item link-shop-dog class-dog" href="https://www.chewy.com/b/cat-325">Shop All <span class="sign">></span></a></li>
+                                                </ul>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                        <div class="logo-pub">
+                                            <h4>popular brands <a href="https://www.chewy.com/app/catalog/brands?cgId=325"><span class="sign">Shop All ></span></a></h4>
+                                            <ul class="d-flex logo-list">
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ABlue+Buffalo%2Cc%3A325"><img src="fonts/dog.png" alt="Dog" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AHalo%2Cc%3A325"><img src="fonts/cat.png" alt="Cat" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AMerrick%2Cc%3A325"><img src="fonts/horse.png" alt="Horse" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AWellness%2Cc%3A325"><img src="fonts/pork.png" alt="Pork" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ATaste+of+the+Wild%2Cc%3A325"><img src="fonts/cow.png" alt="Cow" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AHill%27s%2Cc%3A325"><img src="fonts/goat.png" alt="Goat" style="width: 70px" class="img-responsive"></a></li>
+                                            </ul>  
+                                        </div>
+                                     </div>
+                                      <div class="img-cat">
+                                          <a href="https://www.chewy.com/b/valentines-day-shop-2701">
+                                        <img src="fonts/tabby.jpg" alt="Image cat" style=" width: 355px; height: 525px" class="img-responsive">
+                                          </a>
+                                      </div>
                                     </div>
                                   </div>
                               </div>
                               <div class="dropright">
-                                <button class="btn btn-primary text-left" type="button" id="dropdownMenuButtonShop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="dropdown-item menu-bottom" href="#">fish<i class="fa fa-angle-right far"></i></a>
+                               <button class="btn btn-primary text-left" type="button" id="dropdownMenuButtonShop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="dropdown-item menu-bottom" href="#">fish<i class="fa fa-angle-right far"></i></a>
                                 </button>
-                                  <div class="dropdown-menu menu-min3" aria-labelledby="dropdownMenuButton2">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  <div class="dropdown-menu menu-min1" aria-labelledby="dropdownMenuButton2">
+                                      <div class="d-flex menu-list-full">
+                                      <div class="menu-list-top-bottom">
+                                          <div class="d-flex">
+                                            <div class="first-list1">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/food-treats-886"><h4>food & treats</h4></a>
+                                                <ul class="food">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/tropical-freshwater-887">Tropical Freshwater</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/dry-food-388">Gold Fish</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/prescription-food-460">Saltwater Fish</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/food-toppings-392">Bottom Feeder</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/freeze-dried-food-431">Betta</a></li>
+                                                    <li><a class="dropdown-item link-shop-dog class-dog" href="https://www.chewy.com/b/dehydrated-food-1560">Shop All <span class="sign">></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="first-list">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/fish-885"><h4>Supplies</h4></a>
+                                                <ul class="treats">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/aquariums-starter-kits-1735">Aquarium & Starter Kits</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/heating-lighting-1736">Heating & Lighting</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/water-care-906">Water Care</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/decor-accessories-1737">Décor & Accessories</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/filters-media-924">Filters & Media</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/cleaning-maintenance-929">Cleaning & Maintenance</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/health-wellness-937">Health & Wellness</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/cleaning-maintenance-929">Gifts & Books</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                        <div class="logo-pub">
+                                            <h4>popular brands <a href="https://www.chewy.com/app/catalog/brands?cgId=885"><span class="sign">Shop All ></span></a></h4>
+                                            <ul class="d-flex logo-list">
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ATetra%2Cc%3A885"><img src="fonts/dog.png" alt="Dog" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AAPI%2Cc%3A885"><img src="fonts/cat.png" alt="Cat" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AAqueon%2Cc%3A885"><img src="fonts/horse.png" alt="Horse" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AFluval%2Cc%3A885"><img src="fonts/pork.png" alt="Pork" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AMarineland%2Cc%3A885"><img src="fonts/cow.png" alt="Cow" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AWardley%2Cc%3A885"><img src="fonts/goat.png" alt="Goat" style="width: 70px" class="img-responsive"></a></li>
+                                            </ul>  
+                                        </div>
+                                     </div>
+                                      <div class="img-shark">
+                                        <img src="fonts/shark.jpg" alt="Image shark" style=" width: 355px; height: 580px" class="img-responsive">
+                                      </div>
+                                    </div>
                                   </div>
                               </div>
                               <div class="dropright">
                                 <button class="btn btn-primary text-left" type="button" id="dropdownMenuButtonShop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="dropdown-item menu-bottom" href="#">bird<i class="fa fa-angle-right far"></i></a>
                                 </button>
-                                  <div class="dropdown-menu menu-min4" aria-labelledby="dropdownMenuButton2">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  <div class="dropdown-menu menu-min1" aria-labelledby="dropdownMenuButton2">
+                                      <div class="d-flex menu-list-full">
+                                      <div class="menu-list-top-bottom">
+                                          <div class="d-flex">
+                                            <div class="first-list1">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/food-942"><h4>food</h4></a>
+                                                <ul class="food">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/wild-bird-950">Wild Bird</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/cockatiel-cockatoo-946">Cockatiel & Cockatoo</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/parakeet-944">Parakeet</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/finch-canary-945">Finch & Canary</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/lovebird-947">Lovebird</a></li>
+                                                    <li><a class="dropdown-item link-shop-dog class-dog" href="https://www.chewy.com/b/food-942">Shop All <span class="sign">></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="first-list">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/bird-941"><h4>Supplies</h4></a>
+                                                <ul class="treats">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/treats-952">Treats</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/cages-accessories-953">Cage & Accessories</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/litter-nesting-962">Litter & Nesting</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/perches-toys-967">Perche & Toys</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/grooming-health-971">Grooming & Health</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/gifts-books-1934">Gifts & Books</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                        <div class="logo-pub">
+                                            <h4>popular brands <a href="https://www.chewy.com/app/catalog/brands?cgId=941"><span class="sign">Shop All ></span></a></h4>
+                                            <ul class="d-flex logo-list">
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AKaytee%2Cc%3A941"><img src="fonts/dog.png" alt="Dog" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ACareFresh%2Cc%3A977"><img src="fonts/cat.png" alt="Cat" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AQuiko%2Cc%3A941"><img src="fonts/horse.png" alt="Horse" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AHartz%2Cc%3A941"><img src="fonts/pork.png" alt="Pork" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ALiving+World%2Cc%3A977"><img src="fonts/cow.png" alt="Cow" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ANatural+Balance%2Cc%3A288"><img src="fonts/goat.png" alt="Goat" style="width: 70px" class="img-responsive"></a></li>
+                                            </ul>  
+                                        </div>
+                                     </div>
+                                      <div class="img-bird">
+                                        <img src="fonts/wild-goose.jpg" alt="Image bird" style=" width: 355px; height: 525px" class="img-responsive">
+                                      </div>
+                                    </div>
                                   </div>
                               </div>
                               <div class="dropright">
                                 <button class="btn btn-primary text-left" type="button" id="dropdownMenuButtonShop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a class="dropdown-item menu-bottom" href="#">small pet<i class="fa fa-angle-right far"></i></a>
                                 </button>
-                                  <div class="dropdown-menu menu-min5" aria-labelledby="dropdownMenuButton2">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                  <div class="dropdown-menu menu-min1" aria-labelledby="dropdownMenuButton2">
+                                      <div class="d-flex menu-list-full">
+                                      <div class="menu-list-top-bottom">
+                                          <div class="d-flex">
+                                            <div class="first-list1">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/food-978"><h4>food</h4></a>
+                                                <ul class="food">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/rabbit-979">Rabbit</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/guinea-pig-980">Guinea Pig</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/chinchilla-degu-981">Chinchilla & Degu</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/hamster-983">Hamster</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/gerbil-982">Gerbil</a></li>
+                                                    <li><a class="dropdown-item link-shop-dog class-dog" href="https://www.chewy.com/b/food-978">Shop All <span class="sign">></span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="first-list">
+                                                <a class="dropdown-item dog-link class-dog" href="https://www.chewy.com/b/small-pet-977"><h4>Supplies</h4></a>
+                                                <ul class="treats">
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/treats-988">Treats</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/habitats-accessories-989">Habitats & Accessories</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/bedding-litter-1000">Bedding & Litter</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/beds-hideouts-toys-1005">Beds, Hideouts & Toys</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/harnesses-carriers-1013">Harnesses & Carriers</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/grooming-health-1016">Grooming & Health</a></li>
+                                                    <li><a class="dropdown-item class-dog" href="https://www.chewy.com/b/gifts-books-6196">Gifts & Books</a></li>
+                                                </ul>
+                                            </div>
+                                        </div> 
+                                        <div class="logo-pub">
+                                            <h4>popular brands <a href="https://www.chewy.com/app/catalog/brands?cgId=977"><span class="sign">Shop All ></span></a></h4>
+                                            <ul class="d-flex logo-list">
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AKaytee%2Cc%3A977"><img src="fonts/dog.png" alt="Dog" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ACareFresh%2Cc%3A977"><img src="fonts/cat.png" alt="Cat" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AOxbow%2Cc%3A977"><img src="fonts/horse.png" alt="Horse" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AMarshall%2Cc%3A977"><img src="fonts/pork.png" alt="Pork" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3ALiving+World%2Cc%3A977"><img src="fonts/cow.png" alt="Cow" style="width: 70px" class="img-responsive"></a></li>
+                                                <li class="cw-card"><a class="cw-card-logo" href="https://www.chewy.com/s?page=1&rh=brand_facet%3AHartz%2Cc%3A977"><img src="fonts/goat.png" alt="Goat" style="width: 70px" class="img-responsive"></a></li>
+                                            </ul>  
+                                        </div>
+                                     </div>
+                                      <div class="img-small-pet">
+                                        <img src="fonts/goat-1461917_640.jpg" alt="Image goat" style=" width: 355px; height: 525px" class="img-responsive">
+                                      </div>
+                                    </div>
                                   </div>
                               </div>
                               <div class="dropright">
