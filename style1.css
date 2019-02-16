@@ -1,6 +1,4 @@
-.container-fluid{
-    background-color: #128ced;
-}
+
 .fa-search{
     position: absolute;
     right: 30px;
@@ -10,17 +8,14 @@
     border-radius: 5px;
 }
 
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover>.dropdown-menu{
   display: block;
 }
 
-.dropright:hover>.dropdown-menu{
-    display: block;
-}
 
 .chewi{
-    width: 155px;
-    height: 46px;
+    width: 170px;
+    height: 53px;
 }
 
 .form-control{
@@ -99,7 +94,7 @@
     font-size: 1.1rem;
 }
 
-#dropdownMenuLink1, #dropdownMenuLink2, #dropdownMenuLink3{
+#navbarDropdown1, #navbarDropdown2, #navbarDropdown3{
     background-color:  #128ced;
     border: none;
     color: #fff;
@@ -107,20 +102,7 @@
     font-weight: 600;
 }
 
-#dropdownMenuLink1:hover{
-    border: none;
-    background-color: #0d7ed4;
-} 
 
-#dropdownMenuLink2:hover{
-    border: none;
-    background-color: #0d7ed4;
-} 
-
-#dropdownMenuLink3:hover{
-    border: none;
-    background-color: #0d7ed4;
-}
 #button-sign-in{
     
     width: 80%;
@@ -191,12 +173,9 @@
     padding-left: 20px;
     line-height: 3;
 }
-.pull-right{
-    
-}
+
 #menu3{
     width: 350px;
-    
     padding: 30px;
     padding-top: 30px;
     padding-top: 10px;
@@ -248,7 +227,7 @@
     background-color: #128ced;
     border: none;
 }
-#nav-menu-shop{
+.drop-pet{
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
