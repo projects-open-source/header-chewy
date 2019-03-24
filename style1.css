@@ -2,6 +2,11 @@ header{
     background: #128ced;
 }
 
+.chewy{
+    width: 155px;
+    height: 48px;
+}
+
 .fa-search{
     right: 30px;
     top: 12px;
@@ -41,7 +46,6 @@ header{
 
 .img-cat-size{
     border-bottom-right-radius: 5px;
-    height: 528px;
 }
 
 #fish:hover ~ .pet-drop-fish
@@ -54,7 +58,6 @@ header{
 }
 
 .img-fish{
-    height: 528px;
     border-bottom-right-radius: 5px;
 }
 
@@ -68,7 +71,6 @@ header{
 }
 
 .img-bird-size{
-    height: 528px;
     border-bottom-right-radius: 5px;
 }
 
@@ -82,7 +84,6 @@ header{
 }
 
 .img-small-pet-size{
-    height: 528px;
     border-bottom-right-radius: 5px;
 }
 
@@ -96,7 +97,6 @@ header{
 }
 
 .img-reptile-size{
-    height: 528px;
     border-bottom-right-radius: 5px;
 }
 
@@ -110,7 +110,6 @@ header{
 }
 
 .img-horse-size{
-    height: 528px;
     border-bottom-right-radius: 5px;
 }
 
@@ -124,12 +123,11 @@ header{
 }
 
 .img-pharmacy-size{
-    height: 528px;
     border-bottom-right-radius: 5px;
 }
 
 #menu1{
-    width: 370px;
+    width: 340px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 
@@ -376,45 +374,6 @@ header{
     color: #f8d71c;
 }
 
-.first-list{
-    margin-right: 20px;
-    padding-top: 10px;
-}
-
-.first-list1{
-    margin-right: 20px;
-    margin-left: 20px;
-    padding-top: 10px;
-}
-
-.first-list-cat{
-    padding-bottom: 20px;
-}
-
-.first-list-bird{
-    padding-bottom: 50px;
-}
-
-.first-list-small-pet{
-    padding-bottom: 50px;
-}
-
-.first-list-reptile{
-    padding-bottom: 50px
-}
-
-.first-list-horse{
-    padding-bottom: 65px;
-}
-
-.class-dog{
-    padding-left: 0px;
-    font-size: 1rem;
-}
-.class-dog:hover{
-    color: #0e70be;
-}
-
 .sign{
     color: #0e70be;
     font-weight: 600;
@@ -437,14 +396,3 @@ header{
     color: #128ced;
 }
 
-.cw-card{
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 5px;
-}
-
-.logo-list{
-    list-style-type: none;
-    padding-left: 0px; 
-}
